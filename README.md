@@ -20,20 +20,38 @@ There are a couple of pretty big wins when it comes to choosing this particular 
   - By that extension this could easily reach in an _optional_ cloud space
 - npm provides a wealth of resources we are able to tap into
 - There is greater possibility for rich visualisations.
+- Styling has its own domain language, allowing for greater separation of concerns
+- There are a multitude of cross compilation options, allow this to be programmed in many different possible languages
+
+## Aims
+
+- Provide a hackackable JavaScript environment
+- Improvements over emacs in terms of interactions and useability
 
 ## Features
 
-### Buffers
-
-Also core to the way emacs works, buffers are like the windows within an operating system, providing views into the files and various applications that run within emacs.
+- _Buffers_ - these are the entities that contain files and other running "programs".
+- _Windows_ - the views into those buffers.
 
 ## The Technicals
 
 This is very much a work in progress and highly subject to change.
 
+My philosophy will be to keep dependencies to a bare minimum necessary.
+
+### Preact
+
+Initially I wanted to use VanillaJS, but I soon realised I'm not half as clever as I need to be to pull that off. So I can only apologise if in the unlikely scenario this project takes off and people with slower machines (maybe even faster machines) find their ram and cpu usage spiking.
+
+Preact is a good comprimise, though it isn't backed by a corporation I believe it has stood the test of time, and offers a siginificant performance boost.
+
+### Redux
+
+Redux offers quite a few opportunities down the line for debugging and time-travel.
+
 ### Running
 
-jsmacs will likely run as a client server model, as the front-end, by design, is highly limited. The ideal would have a loosly coupled interface between the backend and frontend, giving the flexibility of jsmacs being able to run in different environments.
+jsmacs will run as a client server model, as the front-end of any web page is, by design, highly limited. The ideal would have a loosly coupled interface between the backend and frontend, giving the flexibility of jsmacs being able to run in different environments.
 
 ### Configuration
 
