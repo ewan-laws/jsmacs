@@ -25,7 +25,7 @@ There are a couple of pretty big wins when it comes to choosing this particular 
 
 ## Aims
 
-- Provide a hackackable JavaScript environment
+- A hackackable JavaScript environment
 - Improvements over emacs in terms of interactions and useability
 
 ## Features
