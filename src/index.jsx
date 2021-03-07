@@ -1,8 +1,19 @@
 import { h, render } from "preact"
 
+import { Provider } from "react-redux"
+
+import store from "./store"
+
 import "./styles/reset.css"
 import "./styles/main.scss"
 
-const App = () => <h1>Hello world</h1>
+const App = () => {
+  return <h1>Hello world</h1>
+}
 
-render(<App />, document.getElementById("mount"))
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("mount")
+)
