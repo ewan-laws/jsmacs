@@ -41,6 +41,7 @@ My philosophy will be to keep dependencies to a bare minimum necessary.
 
 ### High level overview
 
+- A module is registered/installed by placing it in a `modules` folder (and perhaps adding it to a yaml/js file)
 - Each module will have its own store that is dynamically attached to jsmacs.
 - They will be responsible for spawning buffers.
 - The module will be responsible for keeping track of the data within its buffers.
