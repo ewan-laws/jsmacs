@@ -6,7 +6,7 @@ Some of you are going to hate me. But I don't care (okay maybe I do, but I'll ge
 
 I'm a fan of emacs, and I'm very sad it has effectively lost the editor wars (I dream of what it would be like if it had the adoption levels of Vim).
 
-I am also a fan of JavaScript. It's ubiquitous and powerful (granted not as powerful as lisp).
+I am also a fan of JavaScript. It's ubiquitous and powerful (though granted, not as powerful as lisp).
 
 So I wonder, can I take inspiration from emacs, and make something like it, but with JavaScript.
 
