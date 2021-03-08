@@ -23,15 +23,17 @@ There are a couple of pretty big wins when it comes to choosing this particular 
 - Styling has its own domain language, allowing for greater separation of concerns
 - There are a multitude of cross compilation options, allow this to be programmed in many different possible languages
 
+## MVP
+
+- Buffers the logical component, can be files
+- Windows that display those buffers
+- A simple editor with syntax highlighting
+
 ## Aims
 
 - A hackackable JavaScript environment
 - Improvements over emacs in terms of interactions and useability
-
-## Features
-
-- _Buffers_ - these are the entities that contain files and other running "programs".
-- _Windows_ - the views into those buffers.
+- Based around modules that can be swapped with ease
 
 ## The Technicals
 
