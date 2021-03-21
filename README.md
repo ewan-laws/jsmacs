@@ -25,8 +25,8 @@ There are a couple of pretty big wins when it comes to choosing this particular 
 
 ## MVP
 
-- Buffers the logical component, can be files
-- Windows that display those buffers
+- Buffers
+- Windows
 - A simple editor with syntax highlighting
 
 ## Aims
@@ -34,6 +34,11 @@ There are a couple of pretty big wins when it comes to choosing this particular 
 - A hackackable JavaScript environment
 - Improvements over emacs in terms of interactions and useability
 - Based around modules that can be swapped with ease
+
+## Feature list
+
+- Each package will "subscribe" its own set of keybindings (perhaps with the potention option of two "themes"), which can be overriden.
+- There could be a convention of dedicated keybinding files dedicated to custom keybindings.
 
 ## The Technicals
 
