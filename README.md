@@ -1,20 +1,20 @@
 # jsmacs
 
-## The idea
+## The big picture
 
-Some of you are going to hate me. But I don't care (okay maybe I do, but I'll get over it, probably).
+I am going to be hated for this, but here goes... 
 
 I'm a fan of emacs, and I'm very sad it has effectively lost the editor wars (I dream of what it would be like if it had the adoption levels of Vim).
 
-I am also a fan of JavaScript. It's ubiquitous and powerful (granted not as powerful as lisp).
+I am also a fan of JavaScript. It's ubiquitous and powerful (though granted, not as powerful as lisp).
 
-So I wonder, can I take inspiration from emacs, and make something like it, but with JavaScript.
+So I wonder, can I take inspiration from emacs, and make something like it, with JavaScript.
 
 _To build something that can be infinitely extensible._
 
-How closely it resembles emacs I don't know yet. It feels very unimaginative to make an emacs clone, and yet emacs does so many things well. So I'll aim to strike a balance.
+How closely it resembles emacs I don't know yet. It feels very unimaginative to make an emacs clone, and yet emacs does so many things well. So aim is to strike a balance.
 
-There are a couple of pretty big wins when it comes to choosing this particular language
+There are a few wins when it comes to choosing this particular language and technology:
 
 - We have a programming environment right in the browser
   - By that extension this could easily reach in an _optional_ cloud space
